@@ -1,0 +1,420 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
+body {
+    font-family: 'Comfortaa';
+    background-image:url(img/back.png);
+    width: auto;
+    color: rgb(122, 122, 122)
+}
+h1 {
+    font-size: 50px;
+    line-height: 60px;
+    color: black;
+}
+h2 {
+    color: black;
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    position: absolute;
+    top: 96px;
+    left: 936px;
+}
+.menu a {
+    margin: 30px;
+    font-weight: bold;
+    color: rgb(58, 63, 141);
+    text-decoration: none;
+}
+.menu .activepage {
+    color:rgba(255, 106, 109, 1);
+}
+.login {
+    position: absolute;
+    top: 82px;
+    left: 1534px;
+    height: 20px;
+    width: 150px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    background-color: rgba(255, 106, 109, 1);
+    border-radius: 20px;
+    box-shadow: -8px 0px 49px 5px rgba(255, 0, 5, 0.19);
+}
+.logo {
+    position: absolute;
+    text-decoration: none;
+    top: 84px;
+    left: 253px;
+    height: 48px;
+    width: 270px;
+    font-size: 60px;
+    font-weight: 900;
+    color: rgba(255, 106, 109, 1);
+    text-align: right;
+    line-height: 48px;
+    -webkit-transform:  scale(0.81);
+    -ms-transform:  scale(0.81);
+    transform:  scale(0.81);  
+}
+.about {
+    position: absolute;
+    top: 287px;
+    left: 361px;
+    height: 450px;
+    width: 600px;
+    color: rgb(116, 116, 116);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 40px;
+}
+.service {
+    position: absolute;
+    top: 790px;
+    left: 350px;
+    height: 124px;
+    width: 282px;
+    background-image: url(img/coloredbutton.png);
+    background-color: transparent;
+    border:none;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+.servicetext {
+    font-family: 'Comfortaa';
+    text-decoration: none;
+    color: #ffffff;
+}
+.reg {
+    position: absolute;
+    top: 790px;
+    left: 637px;
+    height: 122px;
+    width: 280px;
+    background-image: url(img/emptybutton.png);
+    background-color: transparent;
+    border:none;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+.regtext {
+    font-family: 'Comfortaa';
+    text-decoration: none;
+    color: rgba(255, 106, 109, 1);
+}
+.whychoose {
+    position: absolute;
+    top: 1333px;
+    left: 350px;
+    height: 720px;
+    width: 1350px;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+}
+.col-1-3 {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    line-height: 27px;
+}
+.what {
+    position: absolute;
+    top: 2100px;
+    left: 0px;
+    width: 100%;
+}
+.what-1-4 {
+    float: left;
+    width: 9%;
+    padding-top: 400px;
+}
+.what-2-4 {
+    float: left;
+    width: 40%;
+    padding-top: 120px;
+    padding-left: 50px;
+}
+.what-3-4 {
+    float: left;
+    width: 38%;
+    padding-top: 140px;
+    padding-left: 30px;
+}
+.what-4-4 {
+    float: right;
+    width: 6,5%;
+}
+.whatP {
+    line-height: 40px;
+    padding-left: 55px;
+    padding-right: 140px;
+}
+.learnmore {
+    position: absolute;
+    top: 3160px;
+    left: 0px;
+    width: 100%;
+}
+.learnmore-col-1-3 {
+    float: left;
+    width: 12%;
+    padding-top: 600px;
+}
+.learnmore-col-2-3 {
+    float: left;
+    width: auto;
+}
+.learnmore-col-3-3 {
+    float: right;
+    width: 9%;
+    padding-top: 640px;
+}
+.healing {
+    flex-wrap: wrap;
+}
+.healingIMG {
+    padding-left: 100px;
+    float: right;
+}
+.healingText {
+    padding-left: 50px;
+    float: right;
+    height: 504px;
+    width: 600px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.healingTextP {
+    padding-left: 50px;
+    width: 450px;
+    text-decoration: none;
+}
+.ways {
+    padding-top: 900px;
+}
+.waysImg {
+    float: left;
+    padding-top: 80px;
+}
+.waysText {
+    float: left;
+    width: 685px;
+    padding-left: 80px;
+}
+.waysTextP {
+    line-height: 40px;
+    padding-left: 50px;
+    width: 600px;
+    text-indent: 60px;
+    text-align: justify;
+}
+.bottom {
+    position: absolute;
+    top:5100px;
+    left: 0px;
+    width: 100%;
+    height: 1591px;
+    background-image: url(img/backbottom.png);
+    background-position: bottom;
+    justify-content: center;
+}
+.sellers {
+    position: absolute;
+    left: 12%;
+}
+.leftseller {
+    margin-top: 85px;
+    float: left;
+    height: 689px;
+    width: 473px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    box-shadow: -8px 14px 30px 0px rgba(255, 106, 109, 0.15);
+}
+.centerseller {
+    margin-top: 46px;
+    float: left;
+    height: 771px;
+    width: 502px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    box-shadow: 0px 3px 100px 0px rgba(255, 106, 109, 0.19);
+}
+.rightseller {
+    margin-top: 85px;
+    float: left;
+    height: 689px;
+    width: 473px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    box-shadow: 21px 36px 35px 0px rgba(255, 106, 109, 0.15);
+}
+
+.list {
+    padding-top: 70px;
+    padding-left: 50px;
+    vertical-align: middle;
+    flex-wrap: wrap;
+}
+.listCheck {
+    float: left;
+    padding-top: 4px;
+}
+.listText {
+    float: left;
+    padding-left: 40px;
+}
+.cost {
+    position: absolute;
+    padding-left: 60px;
+    margin-top: 20px;
+    color: rgb(97, 97, 97);;
+}
+.rub {
+    float: left;
+    font-size: 48px;
+    padding-top: 45px;
+}
+.sum {
+    float: left;
+    font-size: 100px;
+    padding-left: 10px;
+}
+.period {
+    float: left;
+    font-size: 30px;
+    padding-top: 128px;
+}
+.payment {
+    padding-top: 240px;
+    text-align: center;
+}
+.payment1button {
+    padding-bottom: 33px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 30px;
+    height: 119px;
+    width: 267px;
+    background-image: url(img/payment1button.png);
+    background-color: transparent;
+    border:none;
+}
+.payment3button {
+    padding-bottom: 33px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 30px;
+    height: 119px;
+    width: 267px;
+    background-image: url(img/payment3button.png);
+    background-color: transparent;
+    border:none;
+}
+.paymentText {
+    padding-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.paymentText3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+.list3 {
+    padding-top: 10px;
+    padding-left: 50px;
+    vertical-align: middle;
+    flex-wrap: wrap;
+}
+.paymentText2 {
+    width: 502px;
+    height: 70px;
+    background-color:  rgba(255, 106, 109, 1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.payment2button {
+    padding-bottom: 33px;
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 30px;
+    height: 119px;
+    width: 267px;
+    background-image: url(img/payment2button.png);
+    background-color: transparent;
+    border:none;
+}
+.footer {
+    top: 6123px;
+    left: 12.5%;
+    position: absolute;
+    height: 568px;
+    width: 1426px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-top-left-radius: 176px;
+    border-top-right-radius: 176px;
+}
+.block {
+    margin-top: 120px;
+    margin-left: 170px;
+}
+.block h2 {
+    color: rgb(92, 92, 92);
+}
+.block a {
+    color: rgb(92, 92, 92);
+}
+.block1 {
+    float: left;
+    width: 20;
+    line-height: 30px;
+    font-size: 16px;
+    color: rgb(92, 92, 92);
+}
+.block2 {
+    float: left;
+    width: 20%;
+    margin-left: 120px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.block3 {
+    margin-left: 16px;
+    float: left;
+    width: 25%;
+    line-height: 40px;
+    font-size: 16px;}
+.block4 {
+    margin-left: -30px;
+    float: left;
+    width: 20%;
+    line-height: 40px;
+    font-size: 16px;
+}
+.copyright {
+    height: 18px;
+    width: 468px;
+    position: absolute;
+    top: 6580px;
+    left: 750px;
+    text-align: center;
+}
